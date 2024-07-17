@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<button onclick="handleClick()">click me</button>
+
+<label>user name</label>
+<input id="uname"type="text">
+<label>email</label>
+<input id="uemail" type="email">
+<button>login</button>
+
+<script >/*this can be done without adding event listener*/
+  function handleClick(){
+    alert("button clicked")
+  }
+</script>
+  <script src="dom2.js"></script> 
+</body>
+</html>
+<!--to use event listener
+on line 9, add an id
+then inJS, declare a variable
+let the variable=document.getElementById('id')
+variable.addeventlistener(click,function(){alert(button clicked)})-->
